@@ -65,10 +65,10 @@ The following methods are supported by the plugin:
 ### Events
 The following events are raised by the plugin:
 
-| Method                          | Parameters                | Description                                                      | Example     |
+| Method                          | Parameters                | Description                                                      | Example Data    |
 |---------------------------------|---------------------------|------------------------------------------------------------------|-------------|
-| onDrawStart                     | Starting Point    | Event fired when user begins selection                                   | {"latlng":{"lat":33.01447033717771,"lng":-96.82496721390636}} |
-| onDrawEnd                       | Array of selection points | Event fired when user ends selection.  Note: array can be large. | [{"lat":33.00295088449869,"lng":-96.8394228955731},{"lat":32.98536856753931,"lng":-96.71727228909732},{"lat":32.932621581506616,"lng":-96.89001782331617},{"lat":32.93504675534242,"lng":-96.89146340824665}] |
+| onDrawStart                     | Starting Point            | Event fired when user begins selection                           | ```{"latlng":{"lat":33.01447033717771,"lng":-96.82496721390636}}``` |
+| onDrawEnd                       | Array of selection points | Event fired when user ends selection.  Note: array can be large. | ```[{"lat":33.00295088449869,"lng":-96.8394228955731},{"lat":32.98536856753931,"lng":-96.71727228909732},{"lat":32.932621581506616,"lng":-96.89001782331617},{"lat":32.93504675534242,"lng":-96.89146340824665}]``` |
 
 How to subscribe to these events:
 ```javascript
